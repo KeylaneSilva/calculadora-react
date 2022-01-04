@@ -5,9 +5,9 @@ export default function Button(props) {
     // condicional para as classe
     
     let classes = 'button '
-    classes += props.operation ? 'button operation' : console.log('operation')
-    classes += props.double ? 'double' : console.log('double')
-    classes += props.triple ? 'triple' : console.log('triple')    
+    // classes += props.operation ? console.log('entrou aqui operation') : console.log('operation')
+    // classes += props.double ? 'double' : console.log('double')
+    // classes += props.triple ? console.log('entrou aqui triple') : console.log('triple')    
     
     return (
         <div>
